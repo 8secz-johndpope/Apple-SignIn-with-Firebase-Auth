@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0391BDA955380EB75FA59948 /* Pods_SignIn_with_Apple_using_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8033619A5D5E509D45E1E13 /* Pods_SignIn_with_Apple_using_Firebase.framework */; };
 		AC3D0C592397AF9F00B821CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C582397AF9F00B821CE /* AppDelegate.swift */; };
 		AC3D0C5B2397AF9F00B821CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C5A2397AF9F00B821CE /* SceneDelegate.swift */; };
 		AC3D0C5D2397AF9F00B821CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C5C2397AF9F00B821CE /* ContentView.swift */; };
 		AC3D0C5F2397AFA200B821CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C5E2397AFA200B821CE /* Assets.xcassets */; };
 		AC3D0C622397AFA200B821CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C612397AFA200B821CE /* Preview Assets.xcassets */; };
 		AC3D0C652397AFA200B821CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C632397AFA200B821CE /* LaunchScreen.storyboard */; };
+		AC3D0C6D2397BE4500B821CE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC3D0C6C2397BE4500B821CE /* GoogleService-Info.plist */; };
+		AC3D0C9823992D1000B821CE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C9723992D1000B821CE /* MainView.swift */; };
+		AC3D0C9A23992D1B00B821CE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C9923992D1B00B821CE /* LoginView.swift */; };
+		AC3D0C9C23992D2D00B821CE /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C9B23992D2D00B821CE /* LaunchView.swift */; };
+		AC3D0C9F2399302900B821CE /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0C9E2399302900B821CE /* AuthState.swift */; };
+		AC3D0CA12399303C00B821CE /* EnvironmentWindowKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0CA02399303C00B821CE /* EnvironmentWindowKey.swift */; };
+		AC3D0CA32399305900B821CE /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0CA22399305900B821CE /* SignInWithAppleButton.swift */; };
+		AC3D0CA52399306700B821CE /* SignInWithAppleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0CA42399306700B821CE /* SignInWithAppleManager.swift */; };
+		AC3D0CA72399308300B821CE /* SignInWithAppleDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3D0CA62399308300B821CE /* SignInWithAppleDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		876EDEA85252F7406AAE2A9A /* Pods-SignIn with Apple using Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn with Apple using Firebase.release.xcconfig"; path = "Target Support Files/Pods-SignIn with Apple using Firebase/Pods-SignIn with Apple using Firebase.release.xcconfig"; sourceTree = "<group>"; };
 		AC3D0C552397AF9F00B821CE /* SignIn with Apple using Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SignIn with Apple using Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3D0C582397AF9F00B821CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC3D0C5A2397AF9F00B821CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,18 @@
 		AC3D0C612397AFA200B821CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC3D0C642397AFA200B821CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC3D0C662397AFA200B821CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC3D0C6C2397BE4500B821CE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC3D0C9623992CE500B821CE /* SignIn with Apple using Firebase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SignIn with Apple using Firebase.entitlements"; sourceTree = "<group>"; };
+		AC3D0C9723992D1000B821CE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AC3D0C9923992D1B00B821CE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AC3D0C9B23992D2D00B821CE /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		AC3D0C9E2399302900B821CE /* AuthState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthState.swift; sourceTree = "<group>"; };
+		AC3D0CA02399303C00B821CE /* EnvironmentWindowKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentWindowKey.swift; sourceTree = "<group>"; };
+		AC3D0CA22399305900B821CE /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		AC3D0CA42399306700B821CE /* SignInWithAppleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleManager.swift; sourceTree = "<group>"; };
+		AC3D0CA62399308300B821CE /* SignInWithAppleDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleDelegate.swift; sourceTree = "<group>"; };
+		CE22C321CB2338455B6A48B2 /* Pods-SignIn with Apple using Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SignIn with Apple using Firebase.debug.xcconfig"; path = "Target Support Files/Pods-SignIn with Apple using Firebase/Pods-SignIn with Apple using Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		D8033619A5D5E509D45E1E13 /* Pods_SignIn_with_Apple_using_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SignIn_with_Apple_using_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0391BDA955380EB75FA59948 /* Pods_SignIn_with_Apple_using_Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6799501CAD896D0E4BDBAED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8033619A5D5E509D45E1E13 /* Pods_SignIn_with_Apple_using_Firebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AC3D0C4C2397AF9F00B821CE = {
 			isa = PBXGroup;
 			children = (
 				AC3D0C572397AF9F00B821CE /* SignIn with Apple using Firebase */,
 				AC3D0C562397AF9F00B821CE /* Products */,
+				CAFDE0E276F9DD8E3D28C71E /* Pods */,
+				6799501CAD896D0E4BDBAED7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,11 +90,17 @@
 		AC3D0C572397AF9F00B821CE /* SignIn with Apple using Firebase */ = {
 			isa = PBXGroup;
 			children = (
+				AC3D0C9623992CE500B821CE /* SignIn with Apple using Firebase.entitlements */,
+				AC3D0C9D2399300900B821CE /* SignInSupport */,
 				AC3D0C582397AF9F00B821CE /* AppDelegate.swift */,
 				AC3D0C5A2397AF9F00B821CE /* SceneDelegate.swift */,
 				AC3D0C5C2397AF9F00B821CE /* ContentView.swift */,
+				AC3D0C9723992D1000B821CE /* MainView.swift */,
+				AC3D0C9923992D1B00B821CE /* LoginView.swift */,
+				AC3D0C9B23992D2D00B821CE /* LaunchView.swift */,
 				AC3D0C5E2397AFA200B821CE /* Assets.xcassets */,
 				AC3D0C632397AFA200B821CE /* LaunchScreen.storyboard */,
+				AC3D0C6C2397BE4500B821CE /* GoogleService-Info.plist */,
 				AC3D0C662397AFA200B821CE /* Info.plist */,
 				AC3D0C602397AFA200B821CE /* Preview Content */,
 			);
@@ -75,6 +115,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AC3D0C9D2399300900B821CE /* SignInSupport */ = {
+			isa = PBXGroup;
+			children = (
+				AC3D0C9E2399302900B821CE /* AuthState.swift */,
+				AC3D0CA02399303C00B821CE /* EnvironmentWindowKey.swift */,
+				AC3D0CA22399305900B821CE /* SignInWithAppleButton.swift */,
+				AC3D0CA62399308300B821CE /* SignInWithAppleDelegate.swift */,
+				AC3D0CA42399306700B821CE /* SignInWithAppleManager.swift */,
+			);
+			path = SignInSupport;
+			sourceTree = "<group>";
+		};
+		CAFDE0E276F9DD8E3D28C71E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE22C321CB2338455B6A48B2 /* Pods-SignIn with Apple using Firebase.debug.xcconfig */,
+				876EDEA85252F7406AAE2A9A /* Pods-SignIn with Apple using Firebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC3D0C692397AFA200B821CE /* Build configuration list for PBXNativeTarget "SignIn with Apple using Firebase" */;
 			buildPhases = (
+				072E1E5B81F294634FE5A224 /* [CP] Check Pods Manifest.lock */,
 				AC3D0C512397AF9F00B821CE /* Sources */,
 				AC3D0C522397AF9F00B821CE /* Frameworks */,
 				AC3D0C532397AF9F00B821CE /* Resources */,
+				ED7F171A46A85E46097FE1DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC3D0C652397AFA200B821CE /* LaunchScreen.storyboard in Resources */,
+				AC3D0C6D2397BE4500B821CE /* GoogleService-Info.plist in Resources */,
 				AC3D0C622397AFA200B821CE /* Preview Assets.xcassets in Resources */,
 				AC3D0C5F2397AFA200B821CE /* Assets.xcassets in Resources */,
 			);
@@ -141,14 +205,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		072E1E5B81F294634FE5A224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SignIn with Apple using Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7F171A46A85E46097FE1DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignIn with Apple using Firebase/Pods-SignIn with Apple using Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SignIn with Apple using Firebase/Pods-SignIn with Apple using Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SignIn with Apple using Firebase/Pods-SignIn with Apple using Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC3D0C512397AF9F00B821CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3D0CA52399306700B821CE /* SignInWithAppleManager.swift in Sources */,
+				AC3D0CA72399308300B821CE /* SignInWithAppleDelegate.swift in Sources */,
 				AC3D0C592397AF9F00B821CE /* AppDelegate.swift in Sources */,
+				AC3D0C9C23992D2D00B821CE /* LaunchView.swift in Sources */,
+				AC3D0C9823992D1000B821CE /* MainView.swift in Sources */,
+				AC3D0CA12399303C00B821CE /* EnvironmentWindowKey.swift in Sources */,
 				AC3D0C5B2397AF9F00B821CE /* SceneDelegate.swift in Sources */,
+				AC3D0C9A23992D1B00B821CE /* LoginView.swift in Sources */,
 				AC3D0C5D2397AF9F00B821CE /* ContentView.swift in Sources */,
+				AC3D0CA32399305900B821CE /* SignInWithAppleButton.swift in Sources */,
+				AC3D0C9F2399302900B821CE /* AuthState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +396,10 @@
 		};
 		AC3D0C6A2397AFA200B821CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE22C321CB2338455B6A48B2 /* Pods-SignIn with Apple using Firebase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SignIn with Apple using Firebase/SignIn with Apple using Firebase.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SignIn with Apple using Firebase/Preview Content\"";
 				DEVELOPMENT_TEAM = 898D22Z9A6;
@@ -296,14 +412,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mugish.SignIn-with-Apple-using-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AC3D0C6B2397AFA200B821CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 876EDEA85252F7406AAE2A9A /* Pods-SignIn with Apple using Firebase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SignIn with Apple using Firebase/SignIn with Apple using Firebase.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SignIn with Apple using Firebase/Preview Content\"";
 				DEVELOPMENT_TEAM = 898D22Z9A6;
@@ -316,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Mugish.SignIn-with-Apple-using-Firebase";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

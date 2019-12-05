@@ -8,9 +8,25 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    
+    
+    @EnvironmentObject var signInWithAppleManager : SignInWithAppleManager
+    
     var body: some View {
-        Text("Hello, World!")
+        ZStack{
+            if signInWithAppleManager.isUserAuthenticated == .undefined {
+                 LaunchView()
+            }else if signInWithAppleManager.isUserAuthenticated == .signedIn{
+                 MainView()
+            }else if signInWithAppleManager.isUserAuthenticated == .signedOut{
+                 LoginView()
+            }
+        }
+        
+        
     }
 }
 
